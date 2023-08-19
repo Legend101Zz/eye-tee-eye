@@ -36,7 +36,4 @@ export default {
   port: envVars.PORT,
   xApiKey: envVars.API_KEY_TOKEN,
   mongoUri: envVars.MONGODB_URI,
-  cloudName: envVars.CLOUDINARY_CLOUD_NAME,
-  cloudKey: envVars.CLOUDINARY_KEY,
-  cloudSecret: envVars.CLOUDINARY_SECRET,
 };
