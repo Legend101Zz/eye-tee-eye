@@ -5,3 +5,8 @@ export interface ValidationSchema {
   params?: Schema;
   query?: Schema;
 }
+
+export interface IModel {
+  url: string;
+  filename: string;
+}

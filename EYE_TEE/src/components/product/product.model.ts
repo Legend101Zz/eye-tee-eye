@@ -1,5 +1,6 @@
 import mongoose, { Schema } from 'mongoose';
-import { Iproduct, IModel } from './product.interface';
+import { IModel } from '@core/interfaces/validationSchema';
+import { Iproduct } from './product.interface';
 
 const ImageSchema: Schema<IModel> = new Schema({
   url: String,
