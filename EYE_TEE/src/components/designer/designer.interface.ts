@@ -3,7 +3,6 @@ import { IModel } from '@core/interfaces/validationSchema';
 export interface IDesigner {
   username: String;
   password: String;
-  profileImage: String;
+  profileImage: IModel;
   Designs: any;
-  image: IModel;
 }
